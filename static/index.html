@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Заказать пожрать</h1>
+    {{range .Dishes}}
+    <div>
+    <button name = 'ВЗЯТЬ'>
+    <img src='pictures/eda.png' alt='{{ .Name }}'>
+    </button></div>
+    {{end}}
+  </body>
+</html>
