@@ -36,6 +36,7 @@ func main() {
 
 	r.Get("/", func(w http.ResponseWriter, r *http.Request) {
 
+		dostavkarepo.getDihes()
 		data := ViewDishes{
 			Title: "Еда",
 			Dishes: []Dish{

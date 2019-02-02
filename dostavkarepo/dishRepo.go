@@ -1,4 +1,4 @@
-package repos
+package dostavkarepo
 
 import (
 	"github.com/jinzhu/gorm"
